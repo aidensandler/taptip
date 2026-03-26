@@ -4,7 +4,7 @@ import { useApp, MOCK_PROVIDERS } from '../context/AppContext';
 import { scanTag } from '../utils/nfc';
 
 export default function ScanPage() {
-  const { setScannedProvider, transactions, mode } = useApp();
+  const { setScannedProvider, transactions } = useApp();
   const navigate = useNavigate();
   const [scanning, setScanning] = useState(false);
   const [error, setError] = useState('');
