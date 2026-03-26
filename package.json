@@ -2,6 +2,7 @@
   "name": "taptip",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://aidensandler.github.io/taptip",
   "description": "Contactless NFC tipping app for service providers",
   "dependencies": {
     "react": "^18.2.0",
